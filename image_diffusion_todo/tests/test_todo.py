@@ -2,8 +2,9 @@
 
 Checks scheduler.py/model.py's #TODO outputs against precomputed reference
 values (expected_outputs.pt) on fixed, seeded inputs -- no training required.
-A pass here does not guarantee a good FID, but a failure means something is
-mathematically wrong before you spend hours training.
+A pass here means that your implementation aligns with TA's. 
+However, a failure doesn't mean that your implementation is wrong.
+You'll still get full point if you reach FID score < 15, even if you fail these tests.
 
 Each test computes its own checkpoint independently, so one crashing #TODO
 only fails the tests that actually exercise it -- the rest still tell you
