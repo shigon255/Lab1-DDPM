@@ -19,9 +19,6 @@ import torch.nn as nn
 
 SEED = 0
 IMG_SHAPE = (4, 3, 16, 16)  # (B, C, H, W)
-# Deliberately not train.py's default of 1000: cosine_betas is the one expected
-# value that does not depend on the seeded inputs, so at T = 1000 a submission
-# could return the stored tensor verbatim and train a correct model off it.
 NUM_TRAIN_TIMESTEPS = 997
 FIXED_T = [0, 250, 500, 996]
 
