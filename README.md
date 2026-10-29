@@ -12,6 +12,7 @@
   <p>
     Instructor: <b>Yu-Lun Liu</b><br>
     TA: <b>Yi-Ruei Liu</b>
+    Assignment Design: <b>Yi-Chuan Huang</b>
   </p>
 </div>
 
