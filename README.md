@@ -11,7 +11,7 @@
 <div align=center>
   <p>
     Instructor: <b>Yu-Lun Liu</b><br>
-    TA: <b>Yi-Ruei Liu</b>
+    TA: <b>Yi-Ruei Liu</b><br>
     Assignment Design: <b>Yi-Chuan Huang</b>
   </p>
 </div>
